@@ -1,0 +1,36 @@
+{
+  "name": "resume-api",
+  "version": "1.0.0",
+  "description": "Simple API connected to a MongoDB to get resume information",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx tsnd --respawn --transpileOnly server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kigamii/resume-api.git"
+  },
+  "keywords": [
+    "resume",
+    "api",
+    "node",
+    "graphql"
+  ],
+  "author": "Baptiste Aden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kigamii/resume-api/issues"
+  },
+  "homepage": "https://github.com/kigamii/resume-api#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  }
+}
